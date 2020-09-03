@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Budget Manager</title>
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="container container-fluid mb-5">
+
+    <div class="jumbotron">
+        <h1>Budget Manager</h1>
+    </div>
+
+    <h1>Total Spent: $<span id="total"></span>.00</h1>
+
+    <h3>Limit: $<span id="limit"></span>.00</h3>
+
+    <input id="amount" type="text">
+
+    <input id="spendAmount" value="Spend" type="submit"/>
+
+    <button class="btn" id="openOptions">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-sliders" fill="navy" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
+          </svg>
+    </button>
+
+
+    <script src="../javascript/jquery-3.5.1.min.js"></script>
+    <script src="../javascript/popup.js"></script>
+
+</body>
+
+</html>
